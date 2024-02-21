@@ -1,7 +1,8 @@
 #include <SDL2/SDL.h>
 
-SDL_Color get_goalColor();
-#define GOAL_COLOR get_goalColor()
+#include "../include/colors.h"
+
+#define GOAL_COLOR color_green
 #define GOAL_XCOORD 3
 #define GOAL_YCOORD 3
 

@@ -52,12 +52,3 @@ bool is_player(Player *player, int xcoord, int ycoord){
     }
     return is_player(player->next, xcoord, ycoord);
 }
-
-SDL_Color get_playerColor() {
-    SDL_Color color = {255, 255, 255, 255};
-    return color;
-}
-SDL_Color get_playerLostColor() {
-    SDL_Color color = {0, 0, 0, 255};
-    return color;
-}

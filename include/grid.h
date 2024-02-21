@@ -11,10 +11,7 @@
 #define CELL_HEIGT 30
 #define CELL_COLORFORMAT 32
 #define CELL_MARGIN 2
-#define CELL_COLOR color_cyan
-
-SDL_Color get_cellColor();
-#define CELL_COLOR get_cellColor()
+#define CELL_COLOR color_darkblue
 
 struct Cell {
     SDL_Rect rect;

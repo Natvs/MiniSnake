@@ -7,7 +7,7 @@
 #include "../include/goal.h"
 
 #define DISPLAY_INTERVAL 200
-#define DISPLAY_LOSTINTERVAL 200
+#define DISPLAY_LOSTINTERVAL 100
 
 #define MOVEDIRECTION_UP 1
 #define MOVEDIRECTION_DOWN 2

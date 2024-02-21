@@ -3,9 +3,7 @@
 
 #include "../include/colors.h"
 
-SDL_Color get_playerColor();
-SDL_Color get_playerLostColor();
-#define PLAYER_COLOR color_white
+#define PLAYER_COLOR color_orange
 #define PLAYER_LOSTCOLOR color_black
 #define PLAYER_XCOORD 0
 #define PLAYER_YCOORD 0

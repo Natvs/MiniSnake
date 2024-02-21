@@ -18,7 +18,3 @@ void set_goal(Goal *goal, int xcoord, int ycoord, SDL_Color color){
     goal->color.b=color.b;
     goal->color.a=color.a;
 }
-SDL_Color get_goalColor() {
-    SDL_Color color = {255, 0, 0, 255};
-    return color;
-}
